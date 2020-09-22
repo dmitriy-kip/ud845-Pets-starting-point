@@ -5,11 +5,11 @@ import android.provider.BaseColumns;
 public final class PetContract {
 
     public static abstract class PetsEntry implements BaseColumns{
-        public static final String TABLE_NAME = "pets";
-        public static final String COLUMN_NAME = "name";
-        public static final String COLUMN_BREED = "breed";
-        public static final String COLUMN_GENDER = "gender";
-        public static final String COLUMN_WEIGHT = "weight";
+        public static final String TABLE_PETS_NAME = "pets";
+        public static final String COLUMN_PETS_NAME = "name";
+        public static final String COLUMN_PETS_BREED = "breed";
+        public static final String COLUMN_PETS_GENDER = "gender";
+        public static final String COLUMN_PETS_WEIGHT = "weight";
 
         public static final int GENDER_MALE = 1;
         public static final int GENDER_FEMALE = 2;
