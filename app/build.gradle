@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 30
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.example.android.pets"
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }
@@ -20,6 +20,8 @@ android {
 }
 
 dependencies {
+    //noinspection GradleCompatible
     compile 'com.android.support:appcompat-v7:24.1.1'
+    //noinspection GradleCompatible
     compile 'com.android.support:design:24.1.1'
 }

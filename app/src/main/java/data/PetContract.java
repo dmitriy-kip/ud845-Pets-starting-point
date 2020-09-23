@@ -4,7 +4,10 @@ import android.provider.BaseColumns;
 
 public final class PetContract {
 
+    private PetContract() {}
+
     public static abstract class PetsEntry implements BaseColumns{
+        public final static String _ID = BaseColumns._ID;
         public static final String TABLE_PETS_NAME = "pets";
         public static final String COLUMN_PETS_NAME = "name";
         public static final String COLUMN_PETS_BREED = "breed";
